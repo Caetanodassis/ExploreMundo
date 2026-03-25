@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreMundo - Início</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabeçalho_azul">
+        <div class="logo">
+            <span class="material-icons icon">place</span>
+            <strong>ExploreMundo</strong>
+        </div> 
+        <nav class="menu-container">
+            <div class="menu"><a href="index.html" class="active">Inicio</a></div>
+            <div class="menu"><a href="destinos.html">Destinos</a></div>
+            <div class="menu"><a href="#">Sobre</a></div>
+            <div class="menu"><a href="#">Contato</a></div>
+        </nav>
+    </header>
+
+    <section id="frases_central">
+        <h1>Descubra Lugares Incríveis!</h1>
+        <h3>Explore os melhores destinos ao redor do mundo.</h3>
+        <button class="btn-laranja">Saiba Mais</button>
+    </section>
+
+    <section id="destinos_populares">
+        <h3 class="secao-titulo">Destinos Populares</h3>
+        <div class="container_cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500" alt="Praia">
+                <h4>Praias Paradisiacas</h4>
+                <p>Conheça as mais belas praias</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=500" alt="Montanha">
+                <h4>Montanhas</h4>
+                <p>Aventuras nas alturas</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=500" alt="Cidade">
+                <h4>Cidades Históricas</h4>
+                <p>Explore a cultura e historia</p>
+            </div>
+        </div>
+        <a href="destinos.html" style="text-decoration: none;">
+            <button class="btn-laranja">Ver Mais Destinos</button>
+        </a>
+    </section>
+
+    <section id="sobre_nos_container" style="text-align: center; padding: 40px 0; background-color: white;">
+        <h3 class="secao-titulo">Sobre Nós</h3>
+        <p style="margin-bottom: 20px; color: #666;">Somos apaixonados por viagens e queremos ajudar você a explorar o mundo!</p>
+        <button class="btn-laranja">Leia Mais</button>
+    </section>
+
+    <section id="contatos">
+        <div class="coluna" id="fale_conosco">
+            <h4>Fale Conosco</h4>
+            <div class="form-group">
+                <label>Nome</label>
+                <input type="text" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label>E-mail</label>
+                <input type="text" placeholder="Seu e-mail">
+            </div>
+            <div class="form-group">
+                <label>Mensagem</label>
+                <textarea rows="4" placeholder="Sua mensagem"></textarea>
+            </div>
+            <button class="btn-enviar">Enviar</button>
+        </div>
+
+        <div class="coluna" id="onde_estamos">
+            <h4>Onde Estamos</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975823533783!2d-46.65880532375836!3d-23.561349161244463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f0c97769!2sAv.%20Paulista%20-%20S%C3%A3o%20Paulo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr" width="100%" height="220" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="contato-info" style="margin-top: 20px;">
+                <p style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px; color: #1a4b8c;">
+                    <span class="material-icons">email</span> email: contato@exploremundo.com
+                </p>
+                <p style="display: flex; align-items: center; gap: 10px; color: #1a4b8c;">
+                    <span class="material-icons">phone</span> (11) 1234-5678
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="rodapé">
+        <p>© 2024 ExploreMundo - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
